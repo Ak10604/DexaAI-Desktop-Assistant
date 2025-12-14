@@ -1,0 +1,146 @@
+{
+    "what time is it": {
+        "action": "say_time",
+        "params": {}
+    },
+    "what's the day today": {
+        "action": "say_day",
+        "params": {}
+    },
+    "open notepad": {
+        "action": "open_app",
+        "params": {
+            "app": "notepad.exe"
+        }
+    },
+    "play music": {
+        "action": "open_app",
+        "params": {
+            "app": "spotify.exe"
+        }
+    },
+    "check battery": {
+        "action": "check_battery",
+        "params": {}
+    },
+    "take screenshot": {
+        "action": "take_screenshot",
+        "params": {}
+    },
+    "mute volume": {
+        "action": "mute_volume",
+        "params": {}
+    },
+    "shutdown pc": {
+        "action": "shutdown_pc",
+        "params": {}
+    },
+    "tell me a joke": {
+        "action": "tell_joke",
+        "params": {}
+    },
+    "system info": {
+        "action": "get_system_info",
+        "params": {}
+    },
+    "lock computer": {
+        "action": "lock_computer",
+        "params": {}
+    },
+    "search for": {
+        "action": "search_web",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "play": {
+        "action": "play_youtube",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "who is": {
+        "action": "search_wikipedia",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "what is": {
+        "action": "search_wikipedia",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "start recording": {
+        "action": "screen_recording",
+        "params": {
+            "action": "start"
+        }
+    },
+    "stop recording": {
+        "action": "screen_recording",
+        "params": {
+            "action": "stop"
+        }
+    },
+    "dictate": {
+        "action": "dictate_to_file",
+        "params": {}
+    },
+    "monitor resources": {
+        "action": "monitor_resources",
+        "params": {}
+    },
+    "remind me": {
+        "action": "schedule_task",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "open folder": {
+        "action": "open_folder",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "open file": {
+        "action": "open_file",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "create note": {
+        "action": "create_note",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "read note": {
+        "action": "read_note",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "list notes": {
+        "action": "list_notes",
+        "params": {}
+    },
+    "delete note": {
+        "action": "delete_note",
+        "params": {
+            "dynamic": true
+        }
+    },
+    "say hi to everyone": {
+        "action": "say_text",
+        "params": {
+            "text": "Hi everyone i am Dexa . its nice meeting you all"
+        }
+    },
+    "say me hi": {
+        "action": "say_text",
+        "params": {
+            "text": "hi i am dexa"
+        }
+    }
+}

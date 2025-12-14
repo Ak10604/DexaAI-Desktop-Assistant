@@ -1,0 +1,19 @@
+{
+    "wake_word_enabled": true,
+    "wake_word": "Hey Dexa",
+    "voice_type": "male",
+    "response_style": "formal",
+    "volume": 60,
+    "speech_speed": 165,
+    "sensitivity": 97,
+    "start_on_boot": true,
+    "minimize_to_tray": true,
+    "show_notifications": true,
+    "work_offline": true,
+    "save_command_history": true,
+    "share_anonymous_data": false,
+    "speech_recognition_engine": "sphinx",
+    "speech_synthesis_engine": "pyttsx3",
+    "theme": "dark",
+    "background_listening": true
+}
